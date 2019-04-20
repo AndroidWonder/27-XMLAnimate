@@ -18,6 +18,7 @@ public class XMLAnimate extends Activity {
         setContentView(R.layout.main);
 
         img = (ImageView) findViewById(R.id.simple_anim);
+        //set ImageView background to AnimationDrawable XML resource.
         img.setBackgroundResource(R.drawable.simple_animation);
 
         //instantiate inner classes
@@ -35,6 +36,7 @@ public class XMLAnimate extends Activity {
 
         @Override
         public void run() {
+            // Get the background, which has been compiled to an AnimationDrawable object.
             AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
             frameAnimation.start();
         }
@@ -44,6 +46,7 @@ public class XMLAnimate extends Activity {
 
         @Override
         public void run() {
+            // Get the background, which has been compiled to an AnimationDrawable object.
             AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
             frameAnimation.stop();
         }
