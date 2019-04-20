@@ -10,38 +10,40 @@ import android.widget.ImageView;
 
 public class XMLAnimate extends Activity {
 
+    private ImageView img;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         setContentView(R.layout.main);
-        ImageView img = (ImageView) findViewById(R.id.simple_anim);
+
+        img = (ImageView) findViewById(R.id.simple_anim);
         img.setBackgroundResource(R.drawable.simple_animation);
 
-        AnimationRoutine1 task1 = new AnimationRoutine1();
-        AnimationRoutine2 task2 = new AnimationRoutine2();
+        //instantiate inner classes
+        AnimationStart start = new AnimationStart();
+        AnimationStop stop = new AnimationStop();
 
         Timer t = new Timer();
-        t.schedule(task1, 1000);
+        t.schedule(start, 1000);
         Timer t2 = new Timer();
-        t2.schedule(task2, 5000);
+        t2.schedule(stop, 5000);
 
     }
 
-    class AnimationRoutine1 extends TimerTask {
+    class AnimationStart extends TimerTask {
 
         @Override
         public void run() {
-            ImageView img = (ImageView) findViewById(R.id.simple_anim);
             AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
             frameAnimation.start();
         }
     }
 
-    class AnimationRoutine2 extends TimerTask {
+    class AnimationStop extends TimerTask {
 
         @Override
         public void run() {
-            ImageView img = (ImageView) findViewById(R.id.simple_anim);
             AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
             frameAnimation.stop();
         }
