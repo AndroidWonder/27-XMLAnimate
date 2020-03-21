@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/27-XMLAnimate.iml" filepath="$PROJECT_DIR$/27-XMLAnimate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27-XMLAnimate.iml" filepath="$PROJECT_DIR$/27-XMLAnimate.iml" group="27-XMLAnimate" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="27-XMLAnimate/app" />
     </modules>
   </component>
 </project>
