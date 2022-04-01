@@ -27,8 +27,7 @@ public class XMLAnimate extends Activity {
 
         Timer t = new Timer();
         t.schedule(start, 1000);
-        Timer t2 = new Timer();
-        t2.schedule(stop, 5000);
+        t.schedule(stop, 5000);
 
     }
 
