@@ -5,7 +5,7 @@
       android:versionName="1.0">
 
     <application android:icon="@drawable/droid" android:label="@string/app_name">
-        <activity android:name=".XMLAnimate"
+        <activity android:name=".XMLAnimate" android:exported="true"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
