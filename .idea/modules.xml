@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/27-XMLAnimate.iml" filepath="$PROJECT_DIR$/27-XMLAnimate.iml" group="27-XMLAnimate" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="27-XMLAnimate/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/27-XMLAnimate.iml" filepath="$PROJECT_DIR$/.idea/modules/27-XMLAnimate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/27-XMLAnimate.app.unitTest.iml" />
     </modules>
   </component>
 </project>
